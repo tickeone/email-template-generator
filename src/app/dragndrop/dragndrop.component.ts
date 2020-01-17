@@ -6,6 +6,7 @@ import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/dr
   templateUrl: './dragndrop.component.html',
   styleUrls: ['./dragndrop.component.css'],
 })
+
 export class DragndropComponent {
 
   todo: BaseObjectHtml[];
@@ -171,7 +172,7 @@ export class ButtonObjHtml4 extends BaseObjectHtml4 implements IObjectHtml
   public toRawText(): string
   {
     return `
-<!-- image -->
+<!-- button -->
 <table>
   <tr>
     <td>
